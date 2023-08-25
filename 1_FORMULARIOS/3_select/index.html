@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Quem descobriu a américa?</p>
+            <div>
+                <input type="radio" id="opcao1" name="america">
+                <label for="opcao1">Pero Vaz De Caminha</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2" name="america">
+                <label for="opcao2">Cristóvão Colombo</label>
+            </div>
+        </div>
+        <!-- select -->
+        <div>
+            <label for="turma">Selecione sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected> Selecione...</option>></option>
+                <option value="01mb">01MB</option>
+                <option value="01ma">01MA</option>
+            </select>
+        </div>
+
+        <button> Enviar </button>
+
+
+    </form>
+</body>
+</html>
