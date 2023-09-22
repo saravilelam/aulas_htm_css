@@ -1,0 +1,10 @@
+div{
+    border: 4px dotted #00f;
+    width: fit-content;
+    font-size: 24px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
